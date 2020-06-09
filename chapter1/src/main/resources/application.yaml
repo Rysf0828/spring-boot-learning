@@ -1,0 +1,13 @@
+#profile dev
+server:
+  port: 8080
+spring:
+  profiles:
+    active: prod
+
+---
+#profile prod
+spring:
+  profiles: prod
+server:
+  port: 80
